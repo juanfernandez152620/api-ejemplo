@@ -1,10 +1,7 @@
 <?php
-    //DESCOMENTAR ESTO
-    define('URL1', '');     //define constante con la direccion donde buscar archivos
-    //define('URL', 'https://visitatucuman.ar/');   //define constante con la direccion http para referenciar
-    define('URL', 'http://10.15.15.151/promocional/');   //define constante con la direccion http para referenciar
-    define('URLApi', 'https://www.tucumanturismo.gob.ar/');   //define constante con la direccion http para referenciar
-    define('URLTurismo', 'https://www.tucumanturismo.gob.ar/');   //define constante con la direccion http para referenciar
-    define('URLpc', 'https://visitatucuman.ar/');   //define constante con la direccion http para referenciar
-    
+// Database configuration
+define('HOST', '200.58.112.193');
+define('USER', 'c2731887_api');
+define('PASSWORD', 'TUCcomp159753');
+define('DB', 'c2731887_tucucom');
 ?>
