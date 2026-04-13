@@ -1,0 +1,24 @@
+{
+  "Permiso": false,
+  "id": "",
+  "Datos": {
+    "URLVisitados": [],
+    "Destinos": {
+      "Lugares": [],
+      "Localidades": []
+    },
+    "Informacion": {
+      "Ubicacion": [
+        {
+          "Lat": "",
+          "Long": ""
+        }
+      ],
+      "Uso": {
+        "FechasYHoras": []
+      },
+      "Idiomas": [],
+      "Busquedas": []
+    }
+  }
+}

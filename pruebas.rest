@@ -1,0 +1,24 @@
+### Variables de Configuración
+@baseUrl = http://10.15.15.151/api/api
+
+### 1. Insertar un nuevo mensaje de IA (POST)
+# Este llama a la función ia_mensaje del controlador
+POST {{baseUrl}}/ia_mensaje
+Content-Type: application/json
+
+{
+    "user_id": 1,
+    "prompt": "Hola, ¿podés ayudarme con el desarrollo de mi sistema en Tucumán?"
+}
+
+###
+
+### 2. Buscar información (GET) - Ejemplo anterior
+# Este llama a la función buscador_info_ia
+GET {{baseUrl}}/buscador_info_ia?busqueda=turismo
+
+###
+
+### 3. Prueba de error (Método no permitido)
+# Si intentas usar GET en el endpoint de guardado, debería fallar (405)
+GET {{baseUrl}}/ia_mensaje
